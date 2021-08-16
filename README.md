@@ -9,7 +9,7 @@ The cryptocurrency market has been turbulent since its inception, but the recent
 
 ## Goals
 
-To build a recommender system based on latest trending tweets influencing the prices of cyrptocurrencies, providing recommendation to users. 
+The goal of this project is to integrate recommendation system approaches with sentiment analysis to create the most accurate suggestions for users. 
 
 ## Datasets
 

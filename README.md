@@ -9,7 +9,7 @@ The cryptocurrency market has been turbulent since its inception, but the recent
 
 ## Goals
 
-To build a recommender system based on latest trending tweets influencing the prices of derivative products or cyrptocurrencies, providing recommendation to users for investment in financial products. 
+To build a recommender system based on latest trending tweets influencing the prices of cyrptocurrencies, providing recommendation to users. 
 
 ## Datasets
 

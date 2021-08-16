@@ -9,7 +9,7 @@ The cryptocurrency market has been turbulent since its inception, but the recent
 
 ## Goals
 
-The goal of this project is to integrate recommendation system approaches with sentiment analysis to create the most accurate suggestions for users. 
+The goal of this project is to integrate recommendation system approaches with sentiment analysis to create the most accurate recommendations for users. 
 
 ## Datasets
 

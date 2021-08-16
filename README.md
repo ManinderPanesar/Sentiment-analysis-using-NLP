@@ -17,4 +17,4 @@ To build a recommender system based on latest trending tweets influencing the pr
 ## Milestones
 
 ## References
-[1] The ‘Musk Effect’ in cryptocurrency markets, Lennart Ante, https://www.law.ox.ac.uk/business-law-blog/blog/2021/04/musk-effect-cryptocurrency-markets
+[1] The ‘Musk Effect’ in cryptocurrency markets, https://www.law.ox.ac.uk/business-law-blog/blog/2021/04/musk-effect-cryptocurrency-markets

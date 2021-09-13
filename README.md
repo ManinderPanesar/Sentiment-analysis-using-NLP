@@ -18,6 +18,7 @@ Firstly, a machine learning model will be trained on a sentiment labelled senten
 
 ## Datasets
 https://www.kaggle.com/ankurzing/sentiment-analysis-for-financial-news
+
 https://www.kaggle.com/davidwallach/financial-tweets
 
 
@@ -28,5 +29,7 @@ This machine learning model to develop trading strategies for the users based on
 
 ## References
 [1] The ‘Musk Effect’ in cryptocurrency markets, https://www.law.ox.ac.uk/business-law-blog/blog/2021/04/musk-effect-cryptocurrency-markets
+
 [2] https://economictimes.indiatimes.com/markets/cryptocurrency/extent-of-elon-musks-influence-on-cryptocurrency-where-is-it-headed/articleshow/83037268.cms?from=mdr
+
 [3] https://datapool.app/charts/cryptocurrency/eth_twitter_sentiment_analysis/

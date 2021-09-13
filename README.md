@@ -1,29 +1,32 @@
-# Sentiment-analysis-using-NLP
+# Sentiment-driven-cryptocurrency-trading indicator
 ## Overview
 
-In this project, a recommender system based on sentiment analysis using tweets is proposed for the goal of providing recommendations to users for investment in cryptocurrencies. The question at hand: can influential leaders' tweets drive the cryptocurreny or market? 
+In this project, a sentiment driven trading indicator is developed with the goal of providing recommendations to users(traders/investors) for investment in cryptocurrencies.  
 
 ## Background and Motivation
 
-The cryptocurrency market has been turbulent since its inception, but the recent price fluctuations have been significantly volatile compared to traditional currencies, or even gold. In January 2021, the price of Bitcoin jumped from around $32,000 to $38,000 in a matter of hours, resulting in a $111 billion rise in market value. This rise occurred as a result of the following event: Elon Musk, the founder of firms such as Tesla and SpaceX, changed his Twitter profile bio to just include the term "#bitcoin" in his account description[1]. 
-[Add more references - volatility in stock market prices because of tweets ]
-In this research, we are using natural language processing to build Twitter sentiment driven trading indicators. We will investigate if there is a correlation between cyptocurrency-related tweets and their price movements and how these sentiment driven indicators can be used to create trading strategies for the users. 
+The cryptocurrency market has been turbulent since its inception, but the recent price fluctuations have been significantly volatile compared to traditional currencies, or even gold. In January 2021, the price of Bitcoin jumped from around $32,000 to $38,000 in a matter of hours, resulting in a $111 billion rise in market value. This rise occurred as a result of the following event: Elon Musk, the founder of firms such as Tesla and SpaceX, changed his Twitter profile bio to just include the term "#bitcoin" in his account description[1]. Many investors entered the crypto market following Elon's tweets to accept payments for Tesla cars in bitcoins. Soon after in April, Elon Musk changed his mind and caused panic among investors by tweeting that Tesla would no longer be accepting payments in Bitcoin owing to the high energy consumption of Bitcoin in the mining process[2]. There were speculation about Elon's ability to influence the cryptocurrency prices through his tweets. This brings to the question at hand: can influential leaders' tweets drive the cryptocurreny or market? It seems unwise to attribute volatility in crytocurrency market to just one person's tweets. 
+While cryptocurrency continues to intrigue investors, many people often confuse the crypto market with the stock exchange. Stocks are assest backed by companies, and are traded in certain time periods. These are often adhered to certain regulations and audits by government agencies. Unlike stocks, cryptocurrencies are digital assets with a subjective value, and traded 24*7 largely without regulations, despite the fact that several governments are rapidly developing regulations for digital currencies and trade. Cryptocurreny is still an emerging market and have much higher volatility as compared to stock market, making it a riskier investment for traders. In this context, I am researching to develop a trading indicator by analysing tweets that can inform investors/asset managers/traders whether to invest in cyrptocurrecy market.  Ofcourse, tweets are not the only source of market volatility, there are other factors responsible such as political statements, environmental changes etc. For this project, I am focusing on the sentiment analysis of tweets. 
+
+In this research, we are using natural language processing to build Twitter sentiment driven trading indicators. These indicator are, in general, text classifiers which will be categorized based on the analysis of the sentiment behind the tweets. These indicators can be beneficial for investors/traders/general public to create their trading strategies for investment in cryptocurrencies [3] . 
 
 ## Goals
+The goal of this project is to build a sentiment analysis classifier (indicator) that can classify the polarity of the text in tweets whether it is positive, negative or neutral. This model will then be deployed to predict the monitor all the tweets containing atleast hashtags of 1 particular cryptocurrency, e.g. Dogecoin and categorise the tone of the tweets in either "positive", or "negative" or "neutral". 
 
-The goal of this project is to integrate recommendation system approaches with sentiment analysis to provide the most accurate recommendation strategies for users. This can be achieved through a number of phases: 
-Phase 1 will be focused on developing the sentiment analysis classifer.  For the intital set up, the classifier will extract tweets containing hashtags of 1 particular cryptocurrency, e.g. Dogecoin. As we move into the next phases, the classifier will be modified to include and analyzed tweets of other cryptocurrencies. This classifier will extract the data from Twitter, analyzed the data to determine the correlation between the tweets and the fluctuation in the cyrtocurrencies prices, and classify sentiments in positive, negative or neutral categories depending on these analysis.
-In the phase 2, a recommendation engine is designed based on the twitter sentiment analysis classifier. 
-Phase 3 will be extended to build a machine learning model that will combines the sentiment classifier and the recommendation system in order to develop sentiment driven trading indicator application. 
+## Methodology 
+Firstly, a machine learning model will be trained on a sentiment labelled sentences data set available from [kaggle](https://www.kaggle.com/ankurzing/sentiment-analysis-for-financial-news). This dataset contains 2 columns, one cotaining sentences and other containing sentiment labels - poitive, negative or neutral. The trained model can then be tested on any datasets containing tweets to predict the sentiment of the sentences. 
 
 ## Datasets
+https://www.kaggle.com/ankurzing/sentiment-analysis-for-financial-news
+https://www.kaggle.com/davidwallach/financial-tweets
+
 
 ## Practical Applications
-This combined machine learning model to develop trading strategies for the users based on sentiment analysis and recommendation system could be useful for crytocurrency exchange platforms such as coinbase or wealthsimple. 
+This machine learning model to develop trading strategies for the users based on sentiment analysis could be useful for crytocurrency exchange platforms such as coinbase or wealthsimple [3]. 
 
 ## Milestones
-Phase 1 - Sentiment analysis classifier
-Phase 2 - Recommendation system 
-Phase 3 - Combined machine learning model 
+
 ## References
 [1] The ‘Musk Effect’ in cryptocurrency markets, https://www.law.ox.ac.uk/business-law-blog/blog/2021/04/musk-effect-cryptocurrency-markets
+[2] https://economictimes.indiatimes.com/markets/cryptocurrency/extent-of-elon-musks-influence-on-cryptocurrency-where-is-it-headed/articleshow/83037268.cms?from=mdr
+[3] https://datapool.app/charts/cryptocurrency/eth_twitter_sentiment_analysis/
